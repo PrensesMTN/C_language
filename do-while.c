@@ -7,7 +7,7 @@ int main(){
 	scanf("%d", &x);
 
 	do{
-		top+=x;
+		top+=x; // * (çarpma işareti) koyarak faktoriyel hesabı yapılabilir.
 		x--;
 	}while(x> 1);
 	printf("sonuc: %d ", top);
